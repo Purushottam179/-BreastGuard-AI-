@@ -1,0 +1,139 @@
+{
+  "random_seed": 42,
+  "test_size": 0.2,
+  "cv_folds": 5,
+  "class_labels": {
+    "1": "Malignant",
+    "0": "Benign"
+  },
+  "n_features": 30,
+  "feature_names": [
+    "mean_radius",
+    "mean_texture",
+    "mean_perimeter",
+    "mean_area",
+    "mean_smoothness",
+    "mean_compactness",
+    "mean_concavity",
+    "mean_concave_points",
+    "mean_symmetry",
+    "mean_fractal_dimension",
+    "radius_se",
+    "texture_se",
+    "perimeter_se",
+    "area_se",
+    "smoothness_se",
+    "compactness_se",
+    "concavity_se",
+    "concave_points_se",
+    "symmetry_se",
+    "fractal_dimension_se",
+    "worst_radius",
+    "worst_texture",
+    "worst_perimeter",
+    "worst_area",
+    "worst_smoothness",
+    "worst_compactness",
+    "worst_concavity",
+    "worst_concave_points",
+    "worst_symmetry",
+    "worst_fractal_dimension"
+  ],
+  "models": {
+    "Logistic Regression": {
+      "filename": "logistic_regression.pkl",
+      "use_scaler": true,
+      "description": "L2-regularized linear baseline with StandardScaler.",
+      "cv_metrics_mean": {
+        "accuracy": 0.97363,
+        "precision": 0.97714,
+        "recall": 0.95294,
+        "f1": 0.96405,
+        "roc_auc": 0.99577
+      },
+      "cv_metrics_std": {
+        "accuracy": 0.01491,
+        "precision": 0.02799,
+        "recall": 0.0399,
+        "f1": 0.0207,
+        "roc_auc": 0.00467
+      }
+    },
+    "Random Forest": {
+      "filename": "random_forest.pkl",
+      "use_scaler": false,
+      "description": "Bagged ensemble of 300 decision trees without feature scaling.",
+      "cv_metrics_mean": {
+        "accuracy": 0.96044,
+        "precision": 0.95838,
+        "recall": 0.93529,
+        "f1": 0.94615,
+        "roc_auc": 0.98798
+      },
+      "cv_metrics_std": {
+        "accuracy": 0.01645,
+        "precision": 0.02208,
+        "recall": 0.03902,
+        "f1": 0.02261,
+        "roc_auc": 0.00728
+      }
+    },
+    "Support Vector Machine": {
+      "filename": "svm.pkl",
+      "use_scaler": true,
+      "description": "RBF-kernel Support Vector Machine with probability estimates and scaling.",
+      "cv_metrics_mean": {
+        "accuracy": 0.97143,
+        "precision": 0.97695,
+        "recall": 0.94706,
+        "f1": 0.96099,
+        "roc_auc": 0.99494
+      },
+      "cv_metrics_std": {
+        "accuracy": 0.00538,
+        "precision": 0.02103,
+        "recall": 0.0343,
+        "f1": 0.0082,
+        "roc_auc": 0.00496
+      }
+    },
+    "Gradient Boosting": {
+      "filename": "gradient_boosting.pkl",
+      "use_scaler": false,
+      "description": "Sequential boosted decision tree ensemble without scaling.",
+      "cv_metrics_mean": {
+        "accuracy": 0.96703,
+        "precision": 0.96985,
+        "recall": 0.94118,
+        "f1": 0.95513,
+        "roc_auc": 0.99164
+      },
+      "cv_metrics_std": {
+        "accuracy": 0.0139,
+        "precision": 0.01862,
+        "recall": 0.02631,
+        "f1": 0.01911,
+        "roc_auc": 0.0056
+      }
+    },
+    "K-Nearest Neighbors": {
+      "filename": "knn.pkl",
+      "use_scaler": true,
+      "description": "5-Nearest Neighbors classifier with Euclidean distance and scaling.",
+      "cv_metrics_mean": {
+        "accuracy": 0.96484,
+        "precision": 0.9875,
+        "recall": 0.91765,
+        "f1": 0.95104,
+        "roc_auc": 0.9871
+      },
+      "cv_metrics_std": {
+        "accuracy": 0.01891,
+        "precision": 0.025,
+        "recall": 0.0343,
+        "f1": 0.0263,
+        "roc_auc": 0.01358
+      }
+    }
+  }
+}

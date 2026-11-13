@@ -1,0 +1,6 @@
+Model,Search_Strategy,Search_Time_Sec,Best_Parameters,Accuracy_Mean,Accuracy_Std,Precision_Mean,Precision_Std,Recall_Mean,Recall_Std,F1_Mean,F1_Std,ROC_AUC_Mean,ROC_AUC_Std
+Logistic Regression,GRID,15.01,"{""C"": 1.0, ""penalty"": ""l1"", ""solver"": ""liblinear""}",0.97363,0.01121,0.98217,0.01456,0.94706,0.0343,0.96379,0.01619,0.99587,0.0041
+Random Forest,RANDOM,26.45,"{""n_estimators"": 100, ""min_samples_split"": 5, ""min_samples_leaf"": 2, ""max_features"": ""log2"", ""max_depth"": 12, ""class_weight"": ""balanced_subsample""}",0.95604,0.00695,0.94223,0.02355,0.94118,0.02631,0.94114,0.00955,0.98989,0.0052
+Support Vector Machine,GRID,2.84,"{""C"": 5.0, ""class_weight"": ""balanced"", ""gamma"": 0.01, ""kernel"": ""rbf""}",0.97802,0.00695,0.98301,0.02239,0.95882,0.02999,0.97013,0.00991,0.99587,0.00507
+Gradient Boosting,RANDOM,14.72,"{""subsample"": 0.7, ""n_estimators"": 300, ""min_samples_split"": 10, ""min_samples_leaf"": 2, ""max_depth"": 5, ""learning_rate"": 0.1}",0.97363,0.02038,0.98163,0.02434,0.94706,0.0343,0.96391,0.02782,0.9934,0.00589
+K-Nearest Neighbors,GRID,0.99,"{""metric"": ""euclidean"", ""n_neighbors"": 11, ""weights"": ""distance""}",0.96044,0.01491,0.98767,0.01513,0.90588,0.04323,0.9443,0.02188,0.98922,0.01095

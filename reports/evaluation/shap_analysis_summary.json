@@ -1,0 +1,182 @@
+{
+  "model_architecture": "Support Vector Classifier (RBF Kernel, C=5.0, gamma=0.01, balanced) with StandardScaler",
+  "explainer_selection": {
+    "model_architecture": "Support Vector Classifier (RBF Kernel, C=5.0, gamma=0.01, balanced) with StandardScaler",
+    "selected_explainer": "shap.KernelExplainer",
+    "why_not_tree_explainer": "TreeExplainer requires ensemble decision tree structures (Random Forest, LightGBM, XGBoost). It is mathematically incompatible with kernel Support Vector Machines.",
+    "why_not_linear_explainer": "LinearExplainer assumes linear decision boundaries f(x) = w^T x + b. Our champion model uses a non-linear Radial Basis Function (RBF) kernel, which projects data into an infinite-dimensional feature space; hence LinearExplainer is inapplicable.",
+    "kernel_explainer_suitability": "KernelExplainer is a model-agnostic explainer rooted in cooperative game theory. It uses weighted local linear surrogate models (LIME-style) to estimate exact Shapley values on probability outputs. By wrapping the entire Pipeline (StandardScaler + SVC), explanations are computed directly in the original, unscaled 30 cytological measurement space with full pipeline fidelity."
+  },
+  "validation_summary": {
+    "shap_values_finite": true,
+    "dimension_match": true,
+    "feature_count": 30,
+    "evaluation_samples": 100,
+    "target_class_explained": "Class 1 (Malignant)",
+    "base_expected_value": 0.2429,
+    "malignant_sample_additivity_gap": 0.0,
+    "benign_sample_additivity_gap": 0.0,
+    "additivity_verified_within_tolerance": true
+  },
+  "global_importance_ranking": [
+    {
+      "rank": 1,
+      "feature": "worst_texture",
+      "mean_abs_shap": 0.03682
+    },
+    {
+      "rank": 2,
+      "feature": "worst_symmetry",
+      "mean_abs_shap": 0.03252
+    },
+    {
+      "rank": 3,
+      "feature": "worst_radius",
+      "mean_abs_shap": 0.02781
+    },
+    {
+      "rank": 4,
+      "feature": "worst_area",
+      "mean_abs_shap": 0.02595
+    },
+    {
+      "rank": 5,
+      "feature": "mean_concave_points",
+      "mean_abs_shap": 0.02591
+    },
+    {
+      "rank": 6,
+      "feature": "worst_concavity",
+      "mean_abs_shap": 0.02558
+    },
+    {
+      "rank": 7,
+      "feature": "radius_se",
+      "mean_abs_shap": 0.02284
+    },
+    {
+      "rank": 8,
+      "feature": "mean_concavity",
+      "mean_abs_shap": 0.02233
+    },
+    {
+      "rank": 9,
+      "feature": "worst_perimeter",
+      "mean_abs_shap": 0.02091
+    },
+    {
+      "rank": 10,
+      "feature": "worst_concave_points",
+      "mean_abs_shap": 0.01862
+    }
+  ],
+  "positive_driver_features": [
+    "worst_texture",
+    "worst_symmetry",
+    "worst_radius",
+    "worst_area",
+    "mean_concave_points",
+    "worst_concavity",
+    "radius_se",
+    "mean_concavity",
+    "worst_perimeter",
+    "worst_concave_points"
+  ],
+  "negative_driver_features": [],
+  "example_local_malignant": {
+    "predicted_label": "Malignant",
+    "prob_malignant": 1.0,
+    "prob_benign": 0.0,
+    "threshold": 0.37,
+    "base_value": 0.2429,
+    "top_positive_contributions": [
+      [
+        "worst_area",
+        2010.0,
+        0.1073
+      ],
+      [
+        "mean_radius",
+        20.94,
+        0.0905
+      ],
+      [
+        "radius_se",
+        1.004,
+        0.0884
+      ],
+      [
+        "mean_concave_points",
+        0.131,
+        0.0877
+      ],
+      [
+        "mean_concavity",
+        0.2712,
+        0.0852
+      ]
+    ],
+    "top_negative_contributions": [],
+    "narrative_explanation": [
+      "Model Decision: Classified as **Malignant** with P(Malignant) = 100.0% (Operating Threshold = 0.37, Population Baseline = 24.3%).",
+      "Features increasing model output toward Malignancy:",
+      "  - **Worst Area** (observed value: 2010.000) had a positive contribution of +0.107 toward the malignant classification.",
+      "  - **Mean Radius** (observed value: 20.940) had a positive contribution of +0.090 toward the malignant classification.",
+      "  - **Radius Se** (observed value: 1.004) had a positive contribution of +0.088 toward the malignant classification.",
+      "  - **Mean Concave Points** (observed value: 0.131) had a positive contribution of +0.088 toward the malignant classification.",
+      "Important Note: Positive and negative contributions reflect the mathematical direction and magnitude by which cellular measurements shift the model's statistical decision function relative to its training baseline. They represent statistical attribution, not medical causation or independent clinical risk factors."
+    ]
+  },
+  "example_local_benign": {
+    "predicted_label": "Benign",
+    "prob_malignant": 0.0005,
+    "prob_benign": 0.9995,
+    "threshold": 0.37,
+    "base_value": 0.2429,
+    "top_positive_contributions": [],
+    "top_negative_contributions": [
+      [
+        "worst_texture",
+        15.97,
+        -0.0763
+      ],
+      [
+        "mean_texture",
+        10.82,
+        -0.0295
+      ],
+      [
+        "worst_perimeter",
+        83.74,
+        -0.0293
+      ],
+      [
+        "worst_radius",
+        12.82,
+        -0.0255
+      ],
+      [
+        "mean_area",
+        403.3,
+        -0.021
+      ]
+    ],
+    "narrative_explanation": [
+      "Model Decision: Classified as **Benign** with P(Malignant) = 0.0% (Operating Threshold = 0.37, Population Baseline = 24.3%).",
+      "Features decreasing model output toward Benign:",
+      "  - **Worst Texture** (observed value: 15.970) contributed -0.076 toward the benign classification.",
+      "  - **Mean Texture** (observed value: 10.820) contributed -0.030 toward the benign classification.",
+      "  - **Worst Perimeter** (observed value: 83.740) contributed -0.029 toward the benign classification.",
+      "  - **Worst Radius** (observed value: 12.820) contributed -0.026 toward the benign classification.",
+      "Important Note: Positive and negative contributions reflect the mathematical direction and magnitude by which cellular measurements shift the model's statistical decision function relative to its training baseline. They represent statistical attribution, not medical causation or independent clinical risk factors."
+    ]
+  },
+  "figure_paths": {
+    "beeswarm": "C:\\Users\\Purushottam\\OneDrive\\Desktop\\Breast Cancer Classification\\reports\\figures\\shap\\shap_summary_beeswarm.png",
+    "global_importance": "C:\\Users\\Purushottam\\OneDrive\\Desktop\\Breast Cancer Classification\\reports\\figures\\shap\\shap_global_importance.png",
+    "bar_plot": "C:\\Users\\Purushottam\\OneDrive\\Desktop\\Breast Cancer Classification\\reports\\figures\\shap\\shap_bar_plot.png",
+    "dependence": "C:\\Users\\Purushottam\\OneDrive\\Desktop\\Breast Cancer Classification\\reports\\figures\\shap\\shap_dependence_top_feature.png",
+    "waterfall": "C:\\Users\\Purushottam\\OneDrive\\Desktop\\Breast Cancer Classification\\reports\\figures\\shap\\shap_waterfall_example.png",
+    "local_contribution": "C:\\Users\\Purushottam\\OneDrive\\Desktop\\Breast Cancer Classification\\reports\\figures\\shap\\shap_local_contribution.png"
+  }
+}

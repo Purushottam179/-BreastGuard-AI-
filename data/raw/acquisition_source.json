@@ -1,0 +1,6 @@
+{
+  "source": "UCI",
+  "uci_url": "https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/wdbc.data",
+  "sklearn_fallback_used": false,
+  "note": "UCI download successful."
+}

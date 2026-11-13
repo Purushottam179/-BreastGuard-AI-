@@ -1,0 +1,7 @@
+Feature,Benign Mean (±SD),Benign Median,Malignant Mean (±SD),Malignant Median,Elevated in Malignant
+Worst Texture,23.515 (±5.494),22.820,29.318 (±5.435),28.945,+24.7%
+Worst Area,558.899 (±163.601),547.400,1422.286 (±597.968),1303.000,+154.5%
+Worst Radius,13.380 (±1.981),13.350,21.135 (±4.284),20.590,+58.0%
+Mean Concave Points,0.026 (±0.016),0.023,0.088 (±0.034),0.086,+242.1%
+Worst Concavity,0.166 (±0.140),0.141,0.451 (±0.182),0.405,+171.1%
+Worst Symmetry,0.270 (±0.042),0.269,0.323 (±0.075),0.310,+19.7%

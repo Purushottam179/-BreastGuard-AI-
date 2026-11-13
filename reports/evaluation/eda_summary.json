@@ -1,0 +1,163 @@
+{
+  "n_samples": 569,
+  "n_malignant": 212,
+  "n_benign": 357,
+  "prevalence_malignant": 0.3726,
+  "top_discriminating_features": [
+    "worst_concave_points",
+    "worst_perimeter",
+    "mean_concave_points",
+    "worst_radius",
+    "mean_perimeter",
+    "worst_area",
+    "mean_radius",
+    "mean_area",
+    "mean_concavity",
+    "worst_concavity"
+  ],
+  "n_high_correlation_pairs": 70,
+  "multicollinear_clusters": [
+    [
+      "mean_area",
+      "mean_compactness",
+      "mean_concave_points",
+      "mean_concavity",
+      "mean_perimeter",
+      "mean_radius",
+      "mean_radius",
+      "worst_area",
+      "worst_compactness",
+      "worst_concave_points",
+      "worst_concavity",
+      "worst_perimeter",
+      "worst_radius"
+    ],
+    [
+      "mean_texture",
+      "mean_texture",
+      "worst_texture"
+    ],
+    [
+      "area_se",
+      "perimeter_se",
+      "radius_se",
+      "radius_se"
+    ]
+  ],
+  "group_summaries": {
+    "mean": {
+      "malignant_means": {
+        "mean_radius": 17.46283,
+        "mean_texture": 21.604906,
+        "mean_perimeter": 115.365377,
+        "mean_area": 978.376415,
+        "mean_smoothness": 0.102898,
+        "mean_compactness": 0.145188,
+        "mean_concavity": 0.160775,
+        "mean_concave_points": 0.08799,
+        "mean_symmetry": 0.192909,
+        "mean_fractal_dimension": 0.06268
+      },
+      "benign_means": {
+        "mean_radius": 12.146524,
+        "mean_texture": 17.914762,
+        "mean_perimeter": 78.075406,
+        "mean_area": 462.790196,
+        "mean_smoothness": 0.092478,
+        "mean_compactness": 0.080085,
+        "mean_concavity": 0.046058,
+        "mean_concave_points": 0.025717,
+        "mean_symmetry": 0.174186,
+        "mean_fractal_dimension": 0.062867
+      },
+      "features": [
+        "mean_radius",
+        "mean_texture",
+        "mean_perimeter",
+        "mean_area",
+        "mean_smoothness",
+        "mean_compactness",
+        "mean_concavity",
+        "mean_concave_points",
+        "mean_symmetry",
+        "mean_fractal_dimension"
+      ]
+    },
+    "se": {
+      "malignant_means": {
+        "radius_se": 0.609083,
+        "texture_se": 1.210915,
+        "perimeter_se": 4.323929,
+        "area_se": 72.672406,
+        "smoothness_se": 0.00678,
+        "compactness_se": 0.032281,
+        "concavity_se": 0.041824,
+        "concave_points_se": 0.01506,
+        "symmetry_se": 0.020472,
+        "fractal_dimension_se": 0.004062
+      },
+      "benign_means": {
+        "radius_se": 0.284082,
+        "texture_se": 1.22038,
+        "perimeter_se": 2.000321,
+        "area_se": 21.135148,
+        "smoothness_se": 0.007196,
+        "compactness_se": 0.021438,
+        "concavity_se": 0.025997,
+        "concave_points_se": 0.009858,
+        "symmetry_se": 0.020584,
+        "fractal_dimension_se": 0.003636
+      },
+      "features": [
+        "radius_se",
+        "texture_se",
+        "perimeter_se",
+        "area_se",
+        "smoothness_se",
+        "compactness_se",
+        "concavity_se",
+        "concave_points_se",
+        "symmetry_se",
+        "fractal_dimension_se"
+      ]
+    },
+    "worst": {
+      "malignant_means": {
+        "worst_radius": 21.134811,
+        "worst_texture": 29.318208,
+        "worst_perimeter": 141.37033,
+        "worst_area": 1422.286321,
+        "worst_smoothness": 0.144845,
+        "worst_compactness": 0.374824,
+        "worst_concavity": 0.450606,
+        "worst_concave_points": 0.182237,
+        "worst_symmetry": 0.323468,
+        "worst_fractal_dimension": 0.09153
+      },
+      "benign_means": {
+        "worst_radius": 13.379801,
+        "worst_texture": 23.51507,
+        "worst_perimeter": 87.005938,
+        "worst_area": 558.89944,
+        "worst_smoothness": 0.124959,
+        "worst_compactness": 0.182673,
+        "worst_concavity": 0.166238,
+        "worst_concave_points": 0.074444,
+        "worst_symmetry": 0.270246,
+        "worst_fractal_dimension": 0.079442
+      },
+      "features": [
+        "worst_radius",
+        "worst_texture",
+        "worst_perimeter",
+        "worst_area",
+        "worst_smoothness",
+        "worst_compactness",
+        "worst_concavity",
+        "worst_concave_points",
+        "worst_symmetry",
+        "worst_fractal_dimension"
+      ]
+    }
+  }
+}

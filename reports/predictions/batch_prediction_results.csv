@@ -1,0 +1,570 @@
+record_id,has_cancer,cancer_status,predicted_class,cancer_probability,confidence,risk_tier,is_borderline,prob_benign,prob_malignant,classification_threshold,prediction_status
+1,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+2,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+3,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+4,YES (Cancer Detected),CANCER DETECTED,Malignant,94.1%,94.1%,Critical Risk (>80%),False,0.0589,0.9411,0.37,SUCCESS
+5,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+6,YES (Cancer Detected),CANCER DETECTED,Malignant,87.2%,87.2%,Critical Risk (>80%),False,0.1283,0.8717,0.37,SUCCESS
+7,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+8,YES (Cancer Detected),CANCER DETECTED,Malignant,86.3%,86.3%,Critical Risk (>80%),False,0.1371,0.8629,0.37,SUCCESS
+9,YES (Cancer Detected),CANCER DETECTED,Malignant,99.7%,99.7%,Critical Risk (>80%),False,0.0032,0.9968,0.37,SUCCESS
+10,YES (Cancer Detected),CANCER DETECTED,Malignant,94.8%,94.8%,Critical Risk (>80%),False,0.0519,0.9481,0.37,SUCCESS
+11,YES (Cancer Detected),CANCER DETECTED,Malignant,94.0%,94.0%,Critical Risk (>80%),False,0.0605,0.9395,0.37,SUCCESS
+12,YES (Cancer Detected),CANCER DETECTED,Malignant,99.5%,99.5%,Critical Risk (>80%),False,0.0048,0.9952,0.37,SUCCESS
+13,YES (Cancer Detected),CANCER DETECTED,Malignant,95.7%,95.7%,Critical Risk (>80%),False,0.0428,0.9572,0.37,SUCCESS
+14,YES (Cancer Detected),CANCER DETECTED,Malignant,88.8%,88.8%,Critical Risk (>80%),False,0.1118,0.8882,0.37,SUCCESS
+15,YES (Cancer Detected),CANCER DETECTED,Malignant,94.5%,94.5%,Critical Risk (>80%),False,0.0546,0.9454,0.37,SUCCESS
+16,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+17,YES (Cancer Detected),CANCER DETECTED,Malignant,99.4%,99.4%,Critical Risk (>80%),False,0.0062,0.9938,0.37,SUCCESS
+18,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+19,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+20,NO (No Cancer Detected),NO CANCER,Benign,2.8%,97.2%,Low Risk (<20%),False,0.9721,0.0279,0.37,SUCCESS
+21,NO (No Cancer Detected),NO CANCER,Benign,0.3%,99.7%,Low Risk (<20%),False,0.9974,0.0026,0.37,SUCCESS
+22,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,1.0,0.0,0.37,SUCCESS
+23,YES (Cancer Detected),CANCER DETECTED,Malignant,98.4%,98.4%,Critical Risk (>80%),False,0.0165,0.9835,0.37,SUCCESS
+24,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+25,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+26,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+27,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+28,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+29,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+30,YES (Cancer Detected),CANCER DETECTED,Malignant,94.0%,94.0%,Critical Risk (>80%),False,0.0605,0.9395,0.37,SUCCESS
+31,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+32,YES (Cancer Detected),CANCER DETECTED,Malignant,97.9%,97.9%,Critical Risk (>80%),False,0.0212,0.9788,0.37,SUCCESS
+33,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+34,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+35,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+36,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+37,YES (Cancer Detected),CANCER DETECTED,Malignant,97.4%,97.4%,Critical Risk (>80%),False,0.0257,0.9743,0.37,SUCCESS
+38,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9996,0.0004,0.37,SUCCESS
+39,YES (Cancer Detected),CANCER DETECTED,Malignant,93.9%,93.9%,Critical Risk (>80%),False,0.0606,0.9394,0.37,SUCCESS
+40,YES (Cancer Detected),CANCER DETECTED,Malignant,83.6%,83.6%,Critical Risk (>80%),False,0.1644,0.8356,0.37,SUCCESS
+41,NO (No Cancer Detected),NO CANCER,Benign,14.7%,85.3%,Low Risk (<20%),False,0.8528,0.1472,0.37,SUCCESS
+42,YES (Cancer Detected),CANCER DETECTED,Malignant,83.8%,83.8%,Critical Risk (>80%),False,0.1619,0.8381,0.37,SUCCESS
+43,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+44,YES (Cancer Detected),CANCER DETECTED,Malignant,95.1%,95.1%,Critical Risk (>80%),False,0.0492,0.9508,0.37,SUCCESS
+45,YES (Cancer Detected),CANCER DETECTED,Malignant,94.0%,94.0%,Critical Risk (>80%),False,0.0605,0.9395,0.37,SUCCESS
+46,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+47,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9999,0.0001,0.37,SUCCESS
+48,YES (Cancer Detected),CANCER DETECTED,Malignant,98.4%,98.4%,Critical Risk (>80%),False,0.0163,0.9837,0.37,SUCCESS
+49,NO (No Cancer Detected),NO CANCER,Benign,0.5%,99.5%,Low Risk (<20%),False,0.9945,0.0055,0.37,SUCCESS
+50,NO (No Cancer Detected),NO CANCER,Benign,15.7%,84.3%,Low Risk (<20%),False,0.8427,0.1573,0.37,SUCCESS
+51,NO (No Cancer Detected),NO CANCER,Benign,0.2%,99.8%,Low Risk (<20%),False,0.9975,0.0025,0.37,SUCCESS
+52,NO (No Cancer Detected),NO CANCER,Benign,0.1%,99.9%,Low Risk (<20%),False,0.9987,0.0013,0.37,SUCCESS
+53,NO (No Cancer Detected),NO CANCER,Benign,0.1%,99.9%,Low Risk (<20%),False,0.9993,0.0007,0.37,SUCCESS
+54,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+55,YES (Cancer Detected),CANCER DETECTED,Malignant,94.9%,94.9%,Critical Risk (>80%),False,0.0507,0.9493,0.37,SUCCESS
+56,NO (No Cancer Detected),NO CANCER,Benign,0.4%,99.6%,Low Risk (<20%),False,0.9958,0.0042,0.37,SUCCESS
+57,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+58,YES (Cancer Detected),CANCER DETECTED,Malignant,99.2%,99.2%,Critical Risk (>80%),False,0.0075,0.9925,0.37,SUCCESS
+59,NO (No Cancer Detected),NO CANCER,Benign,0.1%,99.9%,Low Risk (<20%),False,0.9986,0.0014,0.37,SUCCESS
+60,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9998,0.0002,0.37,SUCCESS
+61,NO (No Cancer Detected),NO CANCER,Benign,0.1%,99.9%,Low Risk (<20%),False,0.999,0.001,0.37,SUCCESS
+62,NO (No Cancer Detected),NO CANCER,Benign,0.2%,99.8%,Low Risk (<20%),False,0.9983,0.0017,0.37,SUCCESS
+63,YES (Cancer Detected),CANCER DETECTED,Malignant,98.4%,98.4%,Critical Risk (>80%),False,0.0157,0.9843,0.37,SUCCESS
+64,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9999,0.0001,0.37,SUCCESS
+65,YES (Cancer Detected),CANCER DETECTED,Malignant,99.6%,99.6%,Critical Risk (>80%),False,0.0044,0.9956,0.37,SUCCESS
+66,YES (Cancer Detected),CANCER DETECTED,Malignant,99.7%,99.7%,Critical Risk (>80%),False,0.003,0.997,0.37,SUCCESS
+67,NO (No Cancer Detected),NO CANCER,Benign,0.2%,99.8%,Low Risk (<20%),False,0.9984,0.0016,0.37,SUCCESS
+68,NO (No Cancer Detected),NO CANCER,Benign,0.2%,99.8%,Low Risk (<20%),False,0.998,0.002,0.37,SUCCESS
+69,NO (No Cancer Detected),NO CANCER,Benign,5.8%,94.2%,Low Risk (<20%),False,0.9425,0.0575,0.37,SUCCESS
+70,NO (No Cancer Detected),NO CANCER,Benign,0.1%,99.9%,Low Risk (<20%),False,0.9986,0.0014,0.37,SUCCESS
+71,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+72,NO (No Cancer Detected),NO CANCER,Benign,0.1%,99.9%,Low Risk (<20%),False,0.999,0.001,0.37,SUCCESS
+73,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+74,NO (No Cancer Detected),NO CANCER,Benign,5.5%,94.5%,Low Risk (<20%),False,0.9449,0.0551,0.37,SUCCESS
+75,NO (No Cancer Detected),NO CANCER,Benign,0.1%,99.9%,Low Risk (<20%),False,0.9986,0.0014,0.37,SUCCESS
+76,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+77,NO (No Cancer Detected),NO CANCER,Benign,0.1%,99.9%,Low Risk (<20%),False,0.999,0.001,0.37,SUCCESS
+78,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+79,YES (Cancer Detected),CANCER DETECTED,Malignant,99.1%,99.1%,Critical Risk (>80%),False,0.0092,0.9908,0.37,SUCCESS
+80,NO (No Cancer Detected),NO CANCER,Benign,0.4%,99.6%,Low Risk (<20%),False,0.9955,0.0045,0.37,SUCCESS
+81,NO (No Cancer Detected),NO CANCER,Benign,2.1%,97.9%,Low Risk (<20%),False,0.9786,0.0214,0.37,SUCCESS
+82,NO (No Cancer Detected),NO CANCER,Benign,24.9%,75.1%,Moderate Risk (20-50%),False,0.7511,0.2489,0.37,SUCCESS
+83,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+84,YES (Cancer Detected),CANCER DETECTED,Malignant,99.4%,99.4%,Critical Risk (>80%),False,0.0059,0.9941,0.37,SUCCESS
+85,NO (No Cancer Detected),NO CANCER,Benign,0.5%,99.5%,Low Risk (<20%),False,0.9945,0.0055,0.37,SUCCESS
+86,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+87,YES (Cancer Detected),CANCER DETECTED,Malignant,81.0%,81.0%,Critical Risk (>80%),False,0.1898,0.8102,0.37,SUCCESS
+88,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+89,NO (No Cancer Detected),NO CANCER,Benign,3.1%,96.9%,Low Risk (<20%),False,0.9687,0.0313,0.37,SUCCESS
+90,NO (No Cancer Detected),NO CANCER,Benign,12.1%,87.9%,Low Risk (<20%),False,0.8791,0.1209,0.37,SUCCESS
+91,NO (No Cancer Detected),NO CANCER,Benign,6.6%,93.4%,Low Risk (<20%),False,0.9339,0.0661,0.37,SUCCESS
+92,YES (Cancer Detected),CANCER DETECTED,Malignant,81.7%,81.7%,Critical Risk (>80%),False,0.1833,0.8167,0.37,SUCCESS
+93,NO (No Cancer Detected),NO CANCER,Benign,1.2%,98.8%,Low Risk (<20%),False,0.9878,0.0122,0.37,SUCCESS
+94,NO (No Cancer Detected),NO CANCER,Benign,2.2%,97.8%,Low Risk (<20%),False,0.9775,0.0225,0.37,SUCCESS
+95,YES (Cancer Detected),CANCER DETECTED,Malignant,99.4%,99.4%,Critical Risk (>80%),False,0.0059,0.9941,0.37,SUCCESS
+96,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+97,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9996,0.0004,0.37,SUCCESS
+98,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9998,0.0002,0.37,SUCCESS
+99,NO (No Cancer Detected),NO CANCER,Benign,0.1%,100.0%,Low Risk (<20%),False,0.9995,0.0005,0.37,SUCCESS
+100,YES (Cancer Detected),CANCER DETECTED,Malignant,53.9%,53.9%,High Risk (50-80%),False,0.461,0.539,0.37,SUCCESS
+101,YES (Cancer Detected),CANCER DETECTED,Malignant,94.8%,94.8%,Critical Risk (>80%),False,0.0524,0.9476,0.37,SUCCESS
+102,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9999,0.0001,0.37,SUCCESS
+103,NO (No Cancer Detected),NO CANCER,Benign,0.9%,99.1%,Low Risk (<20%),False,0.9907,0.0093,0.37,SUCCESS
+104,NO (No Cancer Detected),NO CANCER,Benign,0.2%,99.8%,Low Risk (<20%),False,0.9982,0.0018,0.37,SUCCESS
+105,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9998,0.0002,0.37,SUCCESS
+106,YES (Cancer Detected),CANCER DETECTED,Malignant,94.0%,94.0%,Critical Risk (>80%),False,0.0605,0.9395,0.37,SUCCESS
+107,NO (No Cancer Detected),NO CANCER,Benign,6.1%,93.9%,Low Risk (<20%),False,0.9389,0.0611,0.37,SUCCESS
+108,NO (No Cancer Detected),NO CANCER,Benign,0.5%,99.5%,Low Risk (<20%),False,0.9951,0.0049,0.37,SUCCESS
+109,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+110,NO (No Cancer Detected),NO CANCER,Benign,5.3%,94.7%,Low Risk (<20%),False,0.947,0.053,0.37,SUCCESS
+111,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9997,0.0003,0.37,SUCCESS
+112,NO (No Cancer Detected),NO CANCER,Benign,0.8%,99.2%,Low Risk (<20%),False,0.9916,0.0084,0.37,SUCCESS
+113,NO (No Cancer Detected),NO CANCER,Benign,5.8%,94.2%,Low Risk (<20%),False,0.9425,0.0575,0.37,SUCCESS
+114,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9999,0.0001,0.37,SUCCESS
+115,NO (No Cancer Detected),NO CANCER,Benign,0.1%,100.0%,Low Risk (<20%),False,0.9995,0.0005,0.37,SUCCESS
+116,NO (No Cancer Detected),NO CANCER,Benign,0.5%,99.5%,Low Risk (<20%),False,0.9949,0.0051,0.37,SUCCESS
+117,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9997,0.0003,0.37,SUCCESS
+118,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+119,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+120,YES (Cancer Detected),CANCER DETECTED,Malignant,99.7%,99.7%,Critical Risk (>80%),False,0.0029,0.9971,0.37,SUCCESS
+121,NO (No Cancer Detected),NO CANCER,Benign,0.1%,100.0%,Low Risk (<20%),False,0.9995,0.0005,0.37,SUCCESS
+122,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+123,YES (Cancer Detected),CANCER DETECTED,Malignant,96.6%,96.6%,Critical Risk (>80%),False,0.0336,0.9664,0.37,SUCCESS
+124,NO (No Cancer Detected),NO CANCER,Benign,1.0%,99.0%,Low Risk (<20%),False,0.9904,0.0096,0.37,SUCCESS
+125,NO (No Cancer Detected),NO CANCER,Benign,0.1%,99.9%,Low Risk (<20%),False,0.9993,0.0007,0.37,SUCCESS
+126,NO (No Cancer Detected),NO CANCER,Benign,0.3%,99.7%,Low Risk (<20%),False,0.9971,0.0029,0.37,SUCCESS
+127,YES (Cancer Detected),CANCER DETECTED,Malignant,97.4%,97.4%,Critical Risk (>80%),False,0.0264,0.9736,0.37,SUCCESS
+128,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+129,NO (No Cancer Detected),NO CANCER,Benign,8.6%,91.4%,Low Risk (<20%),False,0.9144,0.0856,0.37,SUCCESS
+130,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+131,NO (No Cancer Detected),NO CANCER,Benign,0.1%,100.0%,Low Risk (<20%),False,0.9995,0.0005,0.37,SUCCESS
+132,YES (Cancer Detected),CANCER DETECTED,Malignant,99.7%,99.7%,Critical Risk (>80%),False,0.0027,0.9973,0.37,SUCCESS
+133,YES (Cancer Detected),CANCER DETECTED,Malignant,99.7%,99.7%,Critical Risk (>80%),False,0.0028,0.9972,0.37,SUCCESS
+134,NO (No Cancer Detected),NO CANCER,Benign,7.2%,92.8%,Low Risk (<20%),False,0.9276,0.0724,0.37,SUCCESS
+135,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+136,NO (No Cancer Detected),NO CANCER,Benign,15.6%,84.4%,Low Risk (<20%),False,0.8436,0.1564,0.37,SUCCESS
+137,NO (No Cancer Detected),NO CANCER,Benign,0.4%,99.6%,Low Risk (<20%),False,0.9958,0.0042,0.37,SUCCESS
+138,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9996,0.0004,0.37,SUCCESS
+139,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+140,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9999,0.0001,0.37,SUCCESS
+141,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,1.0,0.0,0.37,SUCCESS
+142,YES (Cancer Detected),CANCER DETECTED,Malignant,98.4%,98.4%,Critical Risk (>80%),False,0.0156,0.9844,0.37,SUCCESS
+143,NO (No Cancer Detected),NO CANCER,Benign,0.1%,99.9%,Low Risk (<20%),False,0.9991,0.0009,0.37,SUCCESS
+144,NO (No Cancer Detected),NO CANCER,Benign,1.2%,98.8%,Low Risk (<20%),False,0.988,0.012,0.37,SUCCESS
+145,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9999,0.0001,0.37,SUCCESS
+146,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9999,0.0001,0.37,SUCCESS
+147,YES (Cancer Detected),CANCER DETECTED,Malignant,93.9%,93.9%,Critical Risk (>80%),False,0.0606,0.9394,0.37,SUCCESS
+148,NO (No Cancer Detected),NO CANCER,Benign,1.3%,98.7%,Low Risk (<20%),False,0.9873,0.0127,0.37,SUCCESS
+149,NO (No Cancer Detected),NO CANCER,Benign,5.8%,94.2%,Low Risk (<20%),False,0.9424,0.0576,0.37,SUCCESS
+150,NO (No Cancer Detected),NO CANCER,Benign,0.2%,99.8%,Low Risk (<20%),False,0.9978,0.0022,0.37,SUCCESS
+151,NO (No Cancer Detected),NO CANCER,Benign,4.4%,95.6%,Low Risk (<20%),False,0.9559,0.0441,0.37,SUCCESS
+152,NO (No Cancer Detected),NO CANCER,Benign,0.3%,99.7%,Low Risk (<20%),False,0.9968,0.0032,0.37,SUCCESS
+153,NO (No Cancer Detected),NO CANCER,Benign,5.8%,94.2%,Low Risk (<20%),False,0.9425,0.0575,0.37,SUCCESS
+154,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9998,0.0002,0.37,SUCCESS
+155,NO (No Cancer Detected),NO CANCER,Benign,6.0%,94.0%,Low Risk (<20%),False,0.9397,0.0603,0.37,SUCCESS
+156,NO (No Cancer Detected),NO CANCER,Benign,0.4%,99.6%,Low Risk (<20%),False,0.9963,0.0037,0.37,SUCCESS
+157,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+158,NO (No Cancer Detected),NO CANCER,Benign,36.8%,63.2%,Moderate Risk (20-50%),True,0.6317,0.3683,0.37,SUCCESS
+159,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9998,0.0002,0.37,SUCCESS
+160,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9998,0.0002,0.37,SUCCESS
+161,NO (No Cancer Detected),NO CANCER,Benign,3.8%,96.2%,Low Risk (<20%),False,0.9618,0.0382,0.37,SUCCESS
+162,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+163,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+164,NO (No Cancer Detected),NO CANCER,Benign,0.4%,99.6%,Low Risk (<20%),False,0.9964,0.0036,0.37,SUCCESS
+165,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+166,NO (No Cancer Detected),NO CANCER,Benign,1.5%,98.6%,Low Risk (<20%),False,0.9855,0.0145,0.37,SUCCESS
+167,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,1.0,0.0,0.37,SUCCESS
+168,YES (Cancer Detected),CANCER DETECTED,Malignant,98.5%,98.5%,Critical Risk (>80%),False,0.0147,0.9853,0.37,SUCCESS
+169,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+170,NO (No Cancer Detected),NO CANCER,Benign,1.1%,98.9%,Low Risk (<20%),False,0.9887,0.0113,0.37,SUCCESS
+171,NO (No Cancer Detected),NO CANCER,Benign,0.1%,99.9%,Low Risk (<20%),False,0.9994,0.0006,0.37,SUCCESS
+172,YES (Cancer Detected),CANCER DETECTED,Malignant,89.9%,89.9%,Critical Risk (>80%),False,0.1011,0.8989,0.37,SUCCESS
+173,YES (Cancer Detected),CANCER DETECTED,Malignant,95.7%,95.7%,Critical Risk (>80%),False,0.0426,0.9574,0.37,SUCCESS
+174,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9999,0.0001,0.37,SUCCESS
+175,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9998,0.0002,0.37,SUCCESS
+176,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,1.0,0.0,0.37,SUCCESS
+177,NO (No Cancer Detected),NO CANCER,Benign,0.2%,99.8%,Low Risk (<20%),False,0.9984,0.0016,0.37,SUCCESS
+178,YES (Cancer Detected),CANCER DETECTED,Malignant,99.4%,99.4%,Critical Risk (>80%),False,0.0058,0.9942,0.37,SUCCESS
+179,NO (No Cancer Detected),NO CANCER,Benign,0.3%,99.7%,Low Risk (<20%),False,0.9971,0.0029,0.37,SUCCESS
+180,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9998,0.0002,0.37,SUCCESS
+181,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+182,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+183,YES (Cancer Detected),CANCER DETECTED,Malignant,99.6%,99.6%,Critical Risk (>80%),False,0.0036,0.9964,0.37,SUCCESS
+184,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9999,0.0001,0.37,SUCCESS
+185,YES (Cancer Detected),CANCER DETECTED,Malignant,80.8%,80.8%,Critical Risk (>80%),False,0.1915,0.8085,0.37,SUCCESS
+186,NO (No Cancer Detected),NO CANCER,Benign,0.1%,99.9%,Low Risk (<20%),False,0.9991,0.0009,0.37,SUCCESS
+187,YES (Cancer Detected),CANCER DETECTED,Malignant,99.6%,99.6%,Critical Risk (>80%),False,0.0037,0.9963,0.37,SUCCESS
+188,NO (No Cancer Detected),NO CANCER,Benign,0.3%,99.7%,Low Risk (<20%),False,0.9973,0.0027,0.37,SUCCESS
+189,NO (No Cancer Detected),NO CANCER,Benign,0.2%,99.8%,Low Risk (<20%),False,0.9975,0.0025,0.37,SUCCESS
+190,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9997,0.0003,0.37,SUCCESS
+191,YES (Cancer Detected),CANCER DETECTED,Malignant,74.9%,74.9%,High Risk (50-80%),False,0.251,0.749,0.37,SUCCESS
+192,NO (No Cancer Detected),NO CANCER,Benign,1.2%,98.8%,Low Risk (<20%),False,0.9875,0.0125,0.37,SUCCESS
+193,NO (No Cancer Detected),NO CANCER,Benign,0.2%,99.8%,Low Risk (<20%),False,0.9977,0.0023,0.37,SUCCESS
+194,YES (Cancer Detected),CANCER DETECTED,Malignant,94.0%,94.0%,Critical Risk (>80%),False,0.0605,0.9395,0.37,SUCCESS
+195,YES (Cancer Detected),CANCER DETECTED,Malignant,94.0%,94.0%,Critical Risk (>80%),False,0.0605,0.9395,0.37,SUCCESS
+196,NO (No Cancer Detected),NO CANCER,Benign,0.2%,99.8%,Low Risk (<20%),False,0.9981,0.0019,0.37,SUCCESS
+197,YES (Cancer Detected),CANCER DETECTED,Malignant,98.9%,98.9%,Critical Risk (>80%),False,0.0107,0.9893,0.37,SUCCESS
+198,YES (Cancer Detected),CANCER DETECTED,Malignant,94.0%,94.0%,Critical Risk (>80%),False,0.0605,0.9395,0.37,SUCCESS
+199,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+200,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+201,NO (No Cancer Detected),NO CANCER,Benign,3.3%,96.7%,Low Risk (<20%),False,0.9671,0.0329,0.37,SUCCESS
+202,YES (Cancer Detected),CANCER DETECTED,Malignant,99.7%,99.7%,Critical Risk (>80%),False,0.0026,0.9974,0.37,SUCCESS
+203,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+204,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+205,NO (No Cancer Detected),NO CANCER,Benign,6.2%,93.8%,Low Risk (<20%),False,0.938,0.062,0.37,SUCCESS
+206,YES (Cancer Detected),CANCER DETECTED,Malignant,55.8%,55.8%,High Risk (50-80%),False,0.4425,0.5575,0.37,SUCCESS
+207,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9997,0.0003,0.37,SUCCESS
+208,YES (Cancer Detected),CANCER DETECTED,Malignant,98.6%,98.6%,Critical Risk (>80%),False,0.0136,0.9864,0.37,SUCCESS
+209,NO (No Cancer Detected),NO CANCER,Benign,36.8%,63.2%,Moderate Risk (20-50%),True,0.6317,0.3683,0.37,SUCCESS
+210,NO (No Cancer Detected),NO CANCER,Benign,1.8%,98.2%,Low Risk (<20%),False,0.9816,0.0184,0.37,SUCCESS
+211,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+212,NO (No Cancer Detected),NO CANCER,Benign,0.1%,99.9%,Low Risk (<20%),False,0.9989,0.0011,0.37,SUCCESS
+213,YES (Cancer Detected),CANCER DETECTED,Malignant,93.9%,93.9%,Critical Risk (>80%),False,0.0606,0.9394,0.37,SUCCESS
+214,YES (Cancer Detected),CANCER DETECTED,Malignant,94.0%,94.0%,Critical Risk (>80%),False,0.0605,0.9395,0.37,SUCCESS
+215,YES (Cancer Detected),CANCER DETECTED,Malignant,99.4%,99.4%,Critical Risk (>80%),False,0.0058,0.9942,0.37,SUCCESS
+216,YES (Cancer Detected),CANCER DETECTED,Malignant,51.4%,51.4%,High Risk (50-80%),False,0.4863,0.5137,0.37,SUCCESS
+217,NO (No Cancer Detected),NO CANCER,Benign,1.1%,98.9%,Low Risk (<20%),False,0.9891,0.0109,0.37,SUCCESS
+218,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9998,0.0002,0.37,SUCCESS
+219,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+220,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+221,NO (No Cancer Detected),NO CANCER,Benign,0.1%,99.9%,Low Risk (<20%),False,0.9992,0.0008,0.37,SUCCESS
+222,NO (No Cancer Detected),NO CANCER,Benign,0.5%,99.5%,Low Risk (<20%),False,0.9945,0.0055,0.37,SUCCESS
+223,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9997,0.0003,0.37,SUCCESS
+224,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+225,NO (No Cancer Detected),NO CANCER,Benign,1.5%,98.5%,Low Risk (<20%),False,0.9848,0.0152,0.37,SUCCESS
+226,NO (No Cancer Detected),NO CANCER,Benign,10.3%,89.7%,Low Risk (<20%),False,0.8974,0.1026,0.37,SUCCESS
+227,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9999,0.0001,0.37,SUCCESS
+228,NO (No Cancer Detected),NO CANCER,Benign,2.9%,97.1%,Low Risk (<20%),False,0.9712,0.0288,0.37,SUCCESS
+229,NO (No Cancer Detected),NO CANCER,Benign,6.1%,93.9%,Low Risk (<20%),False,0.9389,0.0611,0.37,SUCCESS
+230,YES (Cancer Detected),CANCER DETECTED,Malignant,96.6%,96.6%,Critical Risk (>80%),False,0.0343,0.9657,0.37,SUCCESS
+231,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+232,NO (No Cancer Detected),NO CANCER,Benign,0.3%,99.7%,Low Risk (<20%),False,0.9973,0.0027,0.37,SUCCESS
+233,NO (No Cancer Detected),NO CANCER,Benign,2.0%,98.0%,Low Risk (<20%),False,0.98,0.02,0.37,SUCCESS
+234,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+235,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9998,0.0002,0.37,SUCCESS
+236,NO (No Cancer Detected),NO CANCER,Benign,1.7%,98.3%,Low Risk (<20%),False,0.983,0.017,0.37,SUCCESS
+237,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+238,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+239,NO (No Cancer Detected),NO CANCER,Benign,23.2%,76.8%,Moderate Risk (20-50%),False,0.7685,0.2315,0.37,SUCCESS
+240,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+241,NO (No Cancer Detected),NO CANCER,Benign,0.6%,99.4%,Low Risk (<20%),False,0.9942,0.0058,0.37,SUCCESS
+242,NO (No Cancer Detected),NO CANCER,Benign,0.1%,100.0%,Low Risk (<20%),False,0.9995,0.0005,0.37,SUCCESS
+243,NO (No Cancer Detected),NO CANCER,Benign,1.8%,98.2%,Low Risk (<20%),False,0.9824,0.0176,0.37,SUCCESS
+244,NO (No Cancer Detected),NO CANCER,Benign,2.7%,97.3%,Low Risk (<20%),False,0.9734,0.0266,0.37,SUCCESS
+245,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+246,NO (No Cancer Detected),NO CANCER,Benign,1.9%,98.1%,Low Risk (<20%),False,0.9813,0.0187,0.37,SUCCESS
+247,NO (No Cancer Detected),NO CANCER,Benign,0.3%,99.7%,Low Risk (<20%),False,0.9972,0.0028,0.37,SUCCESS
+248,NO (No Cancer Detected),NO CANCER,Benign,1.2%,98.8%,Low Risk (<20%),False,0.9877,0.0123,0.37,SUCCESS
+249,NO (No Cancer Detected),NO CANCER,Benign,5.4%,94.6%,Low Risk (<20%),False,0.9464,0.0536,0.37,SUCCESS
+250,NO (No Cancer Detected),NO CANCER,Benign,0.1%,99.9%,Low Risk (<20%),False,0.9991,0.0009,0.37,SUCCESS
+251,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+252,NO (No Cancer Detected),NO CANCER,Benign,0.2%,99.8%,Low Risk (<20%),False,0.9978,0.0022,0.37,SUCCESS
+253,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+254,YES (Cancer Detected),CANCER DETECTED,Malignant,99.6%,99.6%,Critical Risk (>80%),False,0.0044,0.9956,0.37,SUCCESS
+255,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+256,YES (Cancer Detected),CANCER DETECTED,Malignant,40.4%,59.6%,Moderate Risk (20-50%),True,0.5964,0.4036,0.37,SUCCESS
+257,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+258,YES (Cancer Detected),CANCER DETECTED,Malignant,97.8%,97.8%,Critical Risk (>80%),False,0.0218,0.9782,0.37,SUCCESS
+259,YES (Cancer Detected),CANCER DETECTED,Malignant,99.7%,99.7%,Critical Risk (>80%),False,0.003,0.997,0.37,SUCCESS
+260,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+261,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+262,YES (Cancer Detected),CANCER DETECTED,Malignant,94.0%,94.0%,Critical Risk (>80%),False,0.0605,0.9395,0.37,SUCCESS
+263,YES (Cancer Detected),CANCER DETECTED,Malignant,99.7%,99.7%,Critical Risk (>80%),False,0.003,0.997,0.37,SUCCESS
+264,YES (Cancer Detected),CANCER DETECTED,Malignant,48.9%,51.1%,Moderate Risk (20-50%),False,0.5108,0.4892,0.37,SUCCESS
+265,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+266,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+267,NO (No Cancer Detected),NO CANCER,Benign,0.1%,99.9%,Low Risk (<20%),False,0.9988,0.0012,0.37,SUCCESS
+268,NO (No Cancer Detected),NO CANCER,Benign,0.7%,99.3%,Low Risk (<20%),False,0.9928,0.0072,0.37,SUCCESS
+269,NO (No Cancer Detected),NO CANCER,Benign,0.5%,99.5%,Low Risk (<20%),False,0.9945,0.0055,0.37,SUCCESS
+270,NO (No Cancer Detected),NO CANCER,Benign,0.1%,99.9%,Low Risk (<20%),False,0.9994,0.0006,0.37,SUCCESS
+271,NO (No Cancer Detected),NO CANCER,Benign,0.1%,99.9%,Low Risk (<20%),False,0.9988,0.0012,0.37,SUCCESS
+272,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9999,0.0001,0.37,SUCCESS
+273,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+274,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9998,0.0002,0.37,SUCCESS
+275,YES (Cancer Detected),CANCER DETECTED,Malignant,99.7%,99.7%,Critical Risk (>80%),False,0.0032,0.9968,0.37,SUCCESS
+276,NO (No Cancer Detected),NO CANCER,Benign,3.7%,96.3%,Low Risk (<20%),False,0.9631,0.0369,0.37,SUCCESS
+277,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9999,0.0001,0.37,SUCCESS
+278,YES (Cancer Detected),CANCER DETECTED,Malignant,98.1%,98.1%,Critical Risk (>80%),False,0.0186,0.9814,0.37,SUCCESS
+279,NO (No Cancer Detected),NO CANCER,Benign,0.8%,99.2%,Low Risk (<20%),False,0.9921,0.0079,0.37,SUCCESS
+280,NO (No Cancer Detected),NO CANCER,Benign,0.7%,99.3%,Low Risk (<20%),False,0.9932,0.0068,0.37,SUCCESS
+281,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+282,NO (No Cancer Detected),NO CANCER,Benign,0.3%,99.7%,Low Risk (<20%),False,0.9973,0.0027,0.37,SUCCESS
+283,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+284,YES (Cancer Detected),CANCER DETECTED,Malignant,97.7%,97.7%,Critical Risk (>80%),False,0.0235,0.9765,0.37,SUCCESS
+285,NO (No Cancer Detected),NO CANCER,Benign,0.1%,99.9%,Low Risk (<20%),False,0.9989,0.0011,0.37,SUCCESS
+286,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9996,0.0004,0.37,SUCCESS
+287,NO (No Cancer Detected),NO CANCER,Benign,0.1%,99.9%,Low Risk (<20%),False,0.9991,0.0009,0.37,SUCCESS
+288,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9998,0.0002,0.37,SUCCESS
+289,NO (No Cancer Detected),NO CANCER,Benign,2.6%,97.4%,Low Risk (<20%),False,0.974,0.026,0.37,SUCCESS
+290,NO (No Cancer Detected),NO CANCER,Benign,0.1%,99.9%,Low Risk (<20%),False,0.9985,0.0015,0.37,SUCCESS
+291,NO (No Cancer Detected),NO CANCER,Benign,5.7%,94.3%,Low Risk (<20%),False,0.9435,0.0565,0.37,SUCCESS
+292,NO (No Cancer Detected),NO CANCER,Benign,26.2%,73.8%,Moderate Risk (20-50%),False,0.7382,0.2618,0.37,SUCCESS
+293,NO (No Cancer Detected),NO CANCER,Benign,0.5%,99.5%,Low Risk (<20%),False,0.9951,0.0049,0.37,SUCCESS
+294,NO (No Cancer Detected),NO CANCER,Benign,0.4%,99.6%,Low Risk (<20%),False,0.9964,0.0036,0.37,SUCCESS
+295,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9998,0.0002,0.37,SUCCESS
+296,NO (No Cancer Detected),NO CANCER,Benign,0.1%,100.0%,Low Risk (<20%),False,0.9995,0.0005,0.37,SUCCESS
+297,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,1.0,0.0,0.37,SUCCESS
+298,NO (No Cancer Detected),NO CANCER,Benign,0.9%,99.1%,Low Risk (<20%),False,0.991,0.009,0.37,SUCCESS
+299,NO (No Cancer Detected),NO CANCER,Benign,1.4%,98.6%,Low Risk (<20%),False,0.9863,0.0137,0.37,SUCCESS
+300,NO (No Cancer Detected),NO CANCER,Benign,0.1%,99.9%,Low Risk (<20%),False,0.9994,0.0006,0.37,SUCCESS
+301,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+302,NO (No Cancer Detected),NO CANCER,Benign,0.1%,99.9%,Low Risk (<20%),False,0.9987,0.0013,0.37,SUCCESS
+303,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+304,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9997,0.0003,0.37,SUCCESS
+305,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9998,0.0002,0.37,SUCCESS
+306,NO (No Cancer Detected),NO CANCER,Benign,0.3%,99.7%,Low Risk (<20%),False,0.9973,0.0027,0.37,SUCCESS
+307,NO (No Cancer Detected),NO CANCER,Benign,0.1%,99.9%,Low Risk (<20%),False,0.9994,0.0006,0.37,SUCCESS
+308,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9999,0.0001,0.37,SUCCESS
+309,NO (No Cancer Detected),NO CANCER,Benign,0.1%,100.0%,Low Risk (<20%),False,0.9995,0.0005,0.37,SUCCESS
+310,NO (No Cancer Detected),NO CANCER,Benign,0.1%,99.9%,Low Risk (<20%),False,0.9992,0.0008,0.37,SUCCESS
+311,NO (No Cancer Detected),NO CANCER,Benign,0.2%,99.8%,Low Risk (<20%),False,0.9978,0.0022,0.37,SUCCESS
+312,NO (No Cancer Detected),NO CANCER,Benign,1.1%,99.0%,Low Risk (<20%),False,0.9895,0.0105,0.37,SUCCESS
+313,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9998,0.0002,0.37,SUCCESS
+314,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9999,0.0001,0.37,SUCCESS
+315,NO (No Cancer Detected),NO CANCER,Benign,0.8%,99.2%,Low Risk (<20%),False,0.9923,0.0077,0.37,SUCCESS
+316,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9996,0.0004,0.37,SUCCESS
+317,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9999,0.0001,0.37,SUCCESS
+318,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+319,NO (No Cancer Detected),NO CANCER,Benign,0.5%,99.5%,Low Risk (<20%),False,0.9954,0.0046,0.37,SUCCESS
+320,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9996,0.0004,0.37,SUCCESS
+321,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9999,0.0001,0.37,SUCCESS
+322,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+323,NO (No Cancer Detected),NO CANCER,Benign,0.2%,99.8%,Low Risk (<20%),False,0.9978,0.0022,0.37,SUCCESS
+324,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+325,NO (No Cancer Detected),NO CANCER,Benign,0.1%,99.9%,Low Risk (<20%),False,0.9992,0.0008,0.37,SUCCESS
+326,NO (No Cancer Detected),NO CANCER,Benign,0.2%,99.8%,Low Risk (<20%),False,0.9984,0.0016,0.37,SUCCESS
+327,NO (No Cancer Detected),NO CANCER,Benign,0.1%,99.9%,Low Risk (<20%),False,0.9991,0.0009,0.37,SUCCESS
+328,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9997,0.0003,0.37,SUCCESS
+329,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+330,YES (Cancer Detected),CANCER DETECTED,Malignant,95.4%,95.4%,Critical Risk (>80%),False,0.0461,0.9539,0.37,SUCCESS
+331,YES (Cancer Detected),CANCER DETECTED,Malignant,94.0%,94.0%,Critical Risk (>80%),False,0.0605,0.9395,0.37,SUCCESS
+332,NO (No Cancer Detected),NO CANCER,Benign,2.5%,97.5%,Low Risk (<20%),False,0.975,0.025,0.37,SUCCESS
+333,NO (No Cancer Detected),NO CANCER,Benign,0.5%,99.5%,Low Risk (<20%),False,0.9953,0.0047,0.37,SUCCESS
+334,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9998,0.0002,0.37,SUCCESS
+335,NO (No Cancer Detected),NO CANCER,Benign,0.1%,99.9%,Low Risk (<20%),False,0.9987,0.0013,0.37,SUCCESS
+336,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+337,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9999,0.0001,0.37,SUCCESS
+338,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+339,NO (No Cancer Detected),NO CANCER,Benign,0.1%,99.9%,Low Risk (<20%),False,0.9993,0.0007,0.37,SUCCESS
+340,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+341,NO (No Cancer Detected),NO CANCER,Benign,15.2%,84.8%,Low Risk (<20%),False,0.8482,0.1518,0.37,SUCCESS
+342,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9997,0.0003,0.37,SUCCESS
+343,NO (No Cancer Detected),NO CANCER,Benign,0.1%,99.9%,Low Risk (<20%),False,0.9991,0.0009,0.37,SUCCESS
+344,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+345,NO (No Cancer Detected),NO CANCER,Benign,0.1%,99.9%,Low Risk (<20%),False,0.9985,0.0015,0.37,SUCCESS
+346,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9998,0.0002,0.37,SUCCESS
+347,NO (No Cancer Detected),NO CANCER,Benign,0.2%,99.8%,Low Risk (<20%),False,0.9979,0.0021,0.37,SUCCESS
+348,NO (No Cancer Detected),NO CANCER,Benign,5.5%,94.5%,Low Risk (<20%),False,0.9449,0.0551,0.37,SUCCESS
+349,NO (No Cancer Detected),NO CANCER,Benign,0.1%,99.9%,Low Risk (<20%),False,0.9991,0.0009,0.37,SUCCESS
+350,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9997,0.0003,0.37,SUCCESS
+351,NO (No Cancer Detected),NO CANCER,Benign,0.1%,99.9%,Low Risk (<20%),False,0.9994,0.0006,0.37,SUCCESS
+352,YES (Cancer Detected),CANCER DETECTED,Malignant,99.0%,99.0%,Critical Risk (>80%),False,0.0096,0.9904,0.37,SUCCESS
+353,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+354,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+355,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9999,0.0001,0.37,SUCCESS
+356,NO (No Cancer Detected),NO CANCER,Benign,0.4%,99.6%,Low Risk (<20%),False,0.9963,0.0037,0.37,SUCCESS
+357,NO (No Cancer Detected),NO CANCER,Benign,2.8%,97.2%,Low Risk (<20%),False,0.9717,0.0283,0.37,SUCCESS
+358,NO (No Cancer Detected),NO CANCER,Benign,0.4%,99.7%,Low Risk (<20%),False,0.9965,0.0035,0.37,SUCCESS
+359,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9999,0.0001,0.37,SUCCESS
+360,NO (No Cancer Detected),NO CANCER,Benign,0.2%,99.8%,Low Risk (<20%),False,0.9977,0.0023,0.37,SUCCESS
+361,NO (No Cancer Detected),NO CANCER,Benign,0.1%,99.9%,Low Risk (<20%),False,0.9988,0.0012,0.37,SUCCESS
+362,NO (No Cancer Detected),NO CANCER,Benign,0.8%,99.2%,Low Risk (<20%),False,0.9922,0.0078,0.37,SUCCESS
+363,NO (No Cancer Detected),NO CANCER,Benign,0.2%,99.8%,Low Risk (<20%),False,0.9975,0.0025,0.37,SUCCESS
+364,YES (Cancer Detected),CANCER DETECTED,Malignant,43.7%,56.3%,Moderate Risk (20-50%),True,0.5632,0.4368,0.37,SUCCESS
+365,NO (No Cancer Detected),NO CANCER,Benign,0.2%,99.8%,Low Risk (<20%),False,0.9978,0.0022,0.37,SUCCESS
+366,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+367,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+368,NO (No Cancer Detected),NO CANCER,Benign,1.9%,98.1%,Low Risk (<20%),False,0.9812,0.0188,0.37,SUCCESS
+369,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+370,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+371,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+372,NO (No Cancer Detected),NO CANCER,Benign,0.1%,99.9%,Low Risk (<20%),False,0.9985,0.0015,0.37,SUCCESS
+373,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+374,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+375,NO (No Cancer Detected),NO CANCER,Benign,0.3%,99.7%,Low Risk (<20%),False,0.9971,0.0029,0.37,SUCCESS
+376,NO (No Cancer Detected),NO CANCER,Benign,5.3%,94.7%,Low Risk (<20%),False,0.9469,0.0531,0.37,SUCCESS
+377,NO (No Cancer Detected),NO CANCER,Benign,0.3%,99.7%,Low Risk (<20%),False,0.9969,0.0031,0.37,SUCCESS
+378,NO (No Cancer Detected),NO CANCER,Benign,5.2%,94.8%,Low Risk (<20%),False,0.9476,0.0524,0.37,SUCCESS
+379,NO (No Cancer Detected),NO CANCER,Benign,0.2%,99.8%,Low Risk (<20%),False,0.9975,0.0025,0.37,SUCCESS
+380,YES (Cancer Detected),CANCER DETECTED,Malignant,97.7%,97.7%,Critical Risk (>80%),False,0.0233,0.9767,0.37,SUCCESS
+381,NO (No Cancer Detected),NO CANCER,Benign,0.9%,99.1%,Low Risk (<20%),False,0.9913,0.0087,0.37,SUCCESS
+382,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9998,0.0002,0.37,SUCCESS
+383,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9997,0.0003,0.37,SUCCESS
+384,NO (No Cancer Detected),NO CANCER,Benign,0.3%,99.7%,Low Risk (<20%),False,0.9972,0.0028,0.37,SUCCESS
+385,NO (No Cancer Detected),NO CANCER,Benign,0.1%,99.9%,Low Risk (<20%),False,0.999,0.001,0.37,SUCCESS
+386,YES (Cancer Detected),CANCER DETECTED,Malignant,81.2%,81.2%,Critical Risk (>80%),False,0.1875,0.8125,0.37,SUCCESS
+387,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9997,0.0003,0.37,SUCCESS
+388,NO (No Cancer Detected),NO CANCER,Benign,0.1%,99.9%,Low Risk (<20%),False,0.9986,0.0014,0.37,SUCCESS
+389,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9999,0.0001,0.37,SUCCESS
+390,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+391,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9999,0.0001,0.37,SUCCESS
+392,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9997,0.0003,0.37,SUCCESS
+393,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+394,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+395,NO (No Cancer Detected),NO CANCER,Benign,0.9%,99.2%,Low Risk (<20%),False,0.9915,0.0085,0.37,SUCCESS
+396,NO (No Cancer Detected),NO CANCER,Benign,0.2%,99.8%,Low Risk (<20%),False,0.9977,0.0023,0.37,SUCCESS
+397,NO (No Cancer Detected),NO CANCER,Benign,17.9%,82.1%,Low Risk (<20%),False,0.8212,0.1788,0.37,SUCCESS
+398,NO (No Cancer Detected),NO CANCER,Benign,0.1%,99.9%,Low Risk (<20%),False,0.9993,0.0007,0.37,SUCCESS
+399,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9998,0.0002,0.37,SUCCESS
+400,NO (No Cancer Detected),NO CANCER,Benign,0.2%,99.8%,Low Risk (<20%),False,0.9984,0.0016,0.37,SUCCESS
+401,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+402,NO (No Cancer Detected),NO CANCER,Benign,0.1%,99.9%,Low Risk (<20%),False,0.9992,0.0008,0.37,SUCCESS
+403,NO (No Cancer Detected),NO CANCER,Benign,0.1%,99.9%,Low Risk (<20%),False,0.9988,0.0012,0.37,SUCCESS
+404,NO (No Cancer Detected),NO CANCER,Benign,0.3%,99.7%,Low Risk (<20%),False,0.9973,0.0027,0.37,SUCCESS
+405,NO (No Cancer Detected),NO CANCER,Benign,0.1%,100.0%,Low Risk (<20%),False,0.9995,0.0005,0.37,SUCCESS
+406,NO (No Cancer Detected),NO CANCER,Benign,0.2%,99.8%,Low Risk (<20%),False,0.9979,0.0021,0.37,SUCCESS
+407,NO (No Cancer Detected),NO CANCER,Benign,8.6%,91.5%,Low Risk (<20%),False,0.9145,0.0855,0.37,SUCCESS
+408,NO (No Cancer Detected),NO CANCER,Benign,0.2%,99.8%,Low Risk (<20%),False,0.9984,0.0016,0.37,SUCCESS
+409,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+410,NO (No Cancer Detected),NO CANCER,Benign,1.9%,98.1%,Low Risk (<20%),False,0.9807,0.0193,0.37,SUCCESS
+411,NO (No Cancer Detected),NO CANCER,Benign,6.2%,93.8%,Low Risk (<20%),False,0.9383,0.0617,0.37,SUCCESS
+412,NO (No Cancer Detected),NO CANCER,Benign,0.2%,99.8%,Low Risk (<20%),False,0.9978,0.0022,0.37,SUCCESS
+413,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9999,0.0001,0.37,SUCCESS
+414,YES (Cancer Detected),CANCER DETECTED,Malignant,50.9%,50.9%,High Risk (50-80%),False,0.491,0.509,0.37,SUCCESS
+415,YES (Cancer Detected),CANCER DETECTED,Malignant,94.1%,94.1%,Critical Risk (>80%),False,0.0588,0.9412,0.37,SUCCESS
+416,NO (No Cancer Detected),NO CANCER,Benign,0.5%,99.5%,Low Risk (<20%),False,0.9948,0.0052,0.37,SUCCESS
+417,NO (No Cancer Detected),NO CANCER,Benign,0.6%,99.4%,Low Risk (<20%),False,0.9938,0.0062,0.37,SUCCESS
+418,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+419,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9997,0.0003,0.37,SUCCESS
+420,NO (No Cancer Detected),NO CANCER,Benign,0.3%,99.7%,Low Risk (<20%),False,0.9969,0.0031,0.37,SUCCESS
+421,NO (No Cancer Detected),NO CANCER,Benign,0.4%,99.6%,Low Risk (<20%),False,0.996,0.004,0.37,SUCCESS
+422,NO (No Cancer Detected),NO CANCER,Benign,5.8%,94.2%,Low Risk (<20%),False,0.9425,0.0575,0.37,SUCCESS
+423,NO (No Cancer Detected),NO CANCER,Benign,0.2%,99.8%,Low Risk (<20%),False,0.9981,0.0019,0.37,SUCCESS
+424,NO (No Cancer Detected),NO CANCER,Benign,4.9%,95.1%,Low Risk (<20%),False,0.951,0.049,0.37,SUCCESS
+425,NO (No Cancer Detected),NO CANCER,Benign,0.5%,99.5%,Low Risk (<20%),False,0.9952,0.0048,0.37,SUCCESS
+426,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9997,0.0003,0.37,SUCCESS
+427,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9997,0.0003,0.37,SUCCESS
+428,NO (No Cancer Detected),NO CANCER,Benign,1.1%,98.9%,Low Risk (<20%),False,0.9887,0.0113,0.37,SUCCESS
+429,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9999,0.0001,0.37,SUCCESS
+430,NO (No Cancer Detected),NO CANCER,Benign,0.1%,99.9%,Low Risk (<20%),False,0.9992,0.0008,0.37,SUCCESS
+431,YES (Cancer Detected),CANCER DETECTED,Malignant,98.8%,98.8%,Critical Risk (>80%),False,0.0118,0.9882,0.37,SUCCESS
+432,NO (No Cancer Detected),NO CANCER,Benign,0.1%,99.9%,Low Risk (<20%),False,0.9994,0.0006,0.37,SUCCESS
+433,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+434,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+435,NO (No Cancer Detected),NO CANCER,Benign,0.9%,99.1%,Low Risk (<20%),False,0.9911,0.0089,0.37,SUCCESS
+436,YES (Cancer Detected),CANCER DETECTED,Malignant,97.5%,97.5%,Critical Risk (>80%),False,0.0252,0.9748,0.37,SUCCESS
+437,NO (No Cancer Detected),NO CANCER,Benign,1.1%,98.9%,Low Risk (<20%),False,0.9886,0.0114,0.37,SUCCESS
+438,NO (No Cancer Detected),NO CANCER,Benign,1.1%,98.9%,Low Risk (<20%),False,0.9891,0.0109,0.37,SUCCESS
+439,NO (No Cancer Detected),NO CANCER,Benign,1.4%,98.7%,Low Risk (<20%),False,0.9865,0.0135,0.37,SUCCESS
+440,NO (No Cancer Detected),NO CANCER,Benign,0.1%,99.9%,Low Risk (<20%),False,0.999,0.001,0.37,SUCCESS
+441,NO (No Cancer Detected),NO CANCER,Benign,0.6%,99.4%,Low Risk (<20%),False,0.9944,0.0056,0.37,SUCCESS
+442,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+443,NO (No Cancer Detected),NO CANCER,Benign,0.1%,99.9%,Low Risk (<20%),False,0.9993,0.0007,0.37,SUCCESS
+444,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9999,0.0001,0.37,SUCCESS
+445,YES (Cancer Detected),CANCER DETECTED,Malignant,97.4%,97.4%,Critical Risk (>80%),False,0.0256,0.9744,0.37,SUCCESS
+446,NO (No Cancer Detected),NO CANCER,Benign,2.4%,97.6%,Low Risk (<20%),False,0.9761,0.0239,0.37,SUCCESS
+447,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+448,NO (No Cancer Detected),NO CANCER,Benign,8.3%,91.7%,Low Risk (<20%),False,0.9169,0.0831,0.37,SUCCESS
+449,NO (No Cancer Detected),NO CANCER,Benign,12.0%,88.0%,Low Risk (<20%),False,0.8797,0.1203,0.37,SUCCESS
+450,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+451,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9997,0.0003,0.37,SUCCESS
+452,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+453,NO (No Cancer Detected),NO CANCER,Benign,1.1%,98.9%,Low Risk (<20%),False,0.9892,0.0108,0.37,SUCCESS
+454,NO (No Cancer Detected),NO CANCER,Benign,1.0%,99.0%,Low Risk (<20%),False,0.9899,0.0101,0.37,SUCCESS
+455,NO (No Cancer Detected),NO CANCER,Benign,0.7%,99.3%,Low Risk (<20%),False,0.9926,0.0074,0.37,SUCCESS
+456,NO (No Cancer Detected),NO CANCER,Benign,21.8%,78.2%,Moderate Risk (20-50%),False,0.7825,0.2175,0.37,SUCCESS
+457,NO (No Cancer Detected),NO CANCER,Benign,18.3%,81.7%,Low Risk (<20%),False,0.8166,0.1834,0.37,SUCCESS
+458,NO (No Cancer Detected),NO CANCER,Benign,6.7%,93.3%,Low Risk (<20%),False,0.9329,0.0671,0.37,SUCCESS
+459,NO (No Cancer Detected),NO CANCER,Benign,2.4%,97.6%,Low Risk (<20%),False,0.9761,0.0239,0.37,SUCCESS
+460,NO (No Cancer Detected),NO CANCER,Benign,0.1%,99.9%,Low Risk (<20%),False,0.9985,0.0015,0.37,SUCCESS
+461,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+462,YES (Cancer Detected),CANCER DETECTED,Malignant,94.0%,94.0%,Critical Risk (>80%),False,0.0605,0.9395,0.37,SUCCESS
+463,NO (No Cancer Detected),NO CANCER,Benign,5.9%,94.1%,Low Risk (<20%),False,0.9413,0.0587,0.37,SUCCESS
+464,NO (No Cancer Detected),NO CANCER,Benign,0.3%,99.7%,Low Risk (<20%),False,0.9973,0.0027,0.37,SUCCESS
+465,NO (No Cancer Detected),NO CANCER,Benign,0.9%,99.1%,Low Risk (<20%),False,0.9914,0.0086,0.37,SUCCESS
+466,NO (No Cancer Detected),NO CANCER,Benign,4.9%,95.1%,Low Risk (<20%),False,0.9509,0.0491,0.37,SUCCESS
+467,NO (No Cancer Detected),NO CANCER,Benign,12.1%,87.9%,Low Risk (<20%),False,0.8792,0.1208,0.37,SUCCESS
+468,NO (No Cancer Detected),NO CANCER,Benign,0.1%,99.9%,Low Risk (<20%),False,0.9993,0.0007,0.37,SUCCESS
+469,YES (Cancer Detected),CANCER DETECTED,Malignant,99.1%,99.1%,Critical Risk (>80%),False,0.0088,0.9912,0.37,SUCCESS
+470,NO (No Cancer Detected),NO CANCER,Benign,6.3%,93.7%,Low Risk (<20%),False,0.9368,0.0632,0.37,SUCCESS
+471,NO (No Cancer Detected),NO CANCER,Benign,0.1%,99.9%,Low Risk (<20%),False,0.9992,0.0008,0.37,SUCCESS
+472,NO (No Cancer Detected),NO CANCER,Benign,5.3%,94.7%,Low Risk (<20%),False,0.9469,0.0531,0.37,SUCCESS
+473,NO (No Cancer Detected),NO CANCER,Benign,2.2%,97.8%,Low Risk (<20%),False,0.9778,0.0222,0.37,SUCCESS
+474,NO (No Cancer Detected),NO CANCER,Benign,1.4%,98.6%,Low Risk (<20%),False,0.9858,0.0142,0.37,SUCCESS
+475,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9998,0.0002,0.37,SUCCESS
+476,NO (No Cancer Detected),NO CANCER,Benign,0.5%,99.5%,Low Risk (<20%),False,0.9953,0.0047,0.37,SUCCESS
+477,NO (No Cancer Detected),NO CANCER,Benign,9.1%,90.9%,Low Risk (<20%),False,0.9092,0.0908,0.37,SUCCESS
+478,NO (No Cancer Detected),NO CANCER,Benign,0.2%,99.8%,Low Risk (<20%),False,0.998,0.002,0.37,SUCCESS
+479,NO (No Cancer Detected),NO CANCER,Benign,0.1%,99.9%,Low Risk (<20%),False,0.9994,0.0006,0.37,SUCCESS
+480,YES (Cancer Detected),CANCER DETECTED,Malignant,97.4%,97.4%,Critical Risk (>80%),False,0.0261,0.9739,0.37,SUCCESS
+481,NO (No Cancer Detected),NO CANCER,Benign,0.2%,99.8%,Low Risk (<20%),False,0.9984,0.0016,0.37,SUCCESS
+482,NO (No Cancer Detected),NO CANCER,Benign,3.6%,96.4%,Low Risk (<20%),False,0.9635,0.0365,0.37,SUCCESS
+483,NO (No Cancer Detected),NO CANCER,Benign,0.7%,99.3%,Low Risk (<20%),False,0.9932,0.0068,0.37,SUCCESS
+484,NO (No Cancer Detected),NO CANCER,Benign,1.1%,98.9%,Low Risk (<20%),False,0.9893,0.0107,0.37,SUCCESS
+485,NO (No Cancer Detected),NO CANCER,Benign,5.8%,94.2%,Low Risk (<20%),False,0.9424,0.0576,0.37,SUCCESS
+486,NO (No Cancer Detected),NO CANCER,Benign,1.6%,98.4%,Low Risk (<20%),False,0.9844,0.0156,0.37,SUCCESS
+487,NO (No Cancer Detected),NO CANCER,Benign,4.0%,96.0%,Low Risk (<20%),False,0.9596,0.0404,0.37,SUCCESS
+488,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+489,NO (No Cancer Detected),NO CANCER,Benign,0.5%,99.5%,Low Risk (<20%),False,0.9949,0.0051,0.37,SUCCESS
+490,YES (Cancer Detected),CANCER DETECTED,Malignant,94.0%,94.0%,Critical Risk (>80%),False,0.0605,0.9395,0.37,SUCCESS
+491,NO (No Cancer Detected),NO CANCER,Benign,2.9%,97.1%,Low Risk (<20%),False,0.9708,0.0292,0.37,SUCCESS
+492,NO (No Cancer Detected),NO CANCER,Benign,18.7%,81.3%,Low Risk (<20%),False,0.8133,0.1867,0.37,SUCCESS
+493,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+494,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9999,0.0001,0.37,SUCCESS
+495,NO (No Cancer Detected),NO CANCER,Benign,0.4%,99.6%,Low Risk (<20%),False,0.9956,0.0044,0.37,SUCCESS
+496,NO (No Cancer Detected),NO CANCER,Benign,10.3%,89.7%,Low Risk (<20%),False,0.897,0.103,0.37,SUCCESS
+497,NO (No Cancer Detected),NO CANCER,Benign,6.7%,93.3%,Low Risk (<20%),False,0.9326,0.0674,0.37,SUCCESS
+498,NO (No Cancer Detected),NO CANCER,Benign,0.7%,99.3%,Low Risk (<20%),False,0.9934,0.0066,0.37,SUCCESS
+499,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+500,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+501,NO (No Cancer Detected),NO CANCER,Benign,2.4%,97.6%,Low Risk (<20%),False,0.976,0.024,0.37,SUCCESS
+502,YES (Cancer Detected),CANCER DETECTED,Malignant,96.5%,96.5%,Critical Risk (>80%),False,0.0353,0.9647,0.37,SUCCESS
+503,NO (No Cancer Detected),NO CANCER,Benign,0.8%,99.2%,Low Risk (<20%),False,0.992,0.008,0.37,SUCCESS
+504,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+505,NO (No Cancer Detected),NO CANCER,Benign,1.2%,98.8%,Low Risk (<20%),False,0.9878,0.0122,0.37,SUCCESS
+506,NO (No Cancer Detected),NO CANCER,Benign,0.9%,99.1%,Low Risk (<20%),False,0.991,0.009,0.37,SUCCESS
+507,NO (No Cancer Detected),NO CANCER,Benign,0.6%,99.4%,Low Risk (<20%),False,0.9943,0.0057,0.37,SUCCESS
+508,NO (No Cancer Detected),NO CANCER,Benign,0.1%,99.9%,Low Risk (<20%),False,0.9993,0.0007,0.37,SUCCESS
+509,NO (No Cancer Detected),NO CANCER,Benign,5.8%,94.2%,Low Risk (<20%),False,0.9424,0.0576,0.37,SUCCESS
+510,YES (Cancer Detected),CANCER DETECTED,Malignant,99.7%,99.7%,Critical Risk (>80%),False,0.0033,0.9967,0.37,SUCCESS
+511,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,1.0,0.0,0.37,SUCCESS
+512,NO (No Cancer Detected),NO CANCER,Benign,0.3%,99.7%,Low Risk (<20%),False,0.9974,0.0026,0.37,SUCCESS
+513,YES (Cancer Detected),CANCER DETECTED,Malignant,99.3%,99.3%,Critical Risk (>80%),False,0.0071,0.9929,0.37,SUCCESS
+514,NO (No Cancer Detected),NO CANCER,Benign,3.1%,96.9%,Low Risk (<20%),False,0.9694,0.0306,0.37,SUCCESS
+515,YES (Cancer Detected),CANCER DETECTED,Malignant,58.3%,58.3%,High Risk (50-80%),False,0.4171,0.5829,0.37,SUCCESS
+516,NO (No Cancer Detected),NO CANCER,Benign,0.4%,99.6%,Low Risk (<20%),False,0.9961,0.0039,0.37,SUCCESS
+517,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+518,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+519,NO (No Cancer Detected),NO CANCER,Benign,3.2%,96.8%,Low Risk (<20%),False,0.9679,0.0321,0.37,SUCCESS
+520,NO (No Cancer Detected),NO CANCER,Benign,0.9%,99.1%,Low Risk (<20%),False,0.9911,0.0089,0.37,SUCCESS
+521,NO (No Cancer Detected),NO CANCER,Benign,0.4%,99.7%,Low Risk (<20%),False,0.9965,0.0035,0.37,SUCCESS
+522,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+523,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9997,0.0003,0.37,SUCCESS
+524,NO (No Cancer Detected),NO CANCER,Benign,3.7%,96.3%,Low Risk (<20%),False,0.963,0.037,0.37,SUCCESS
+525,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9999,0.0001,0.37,SUCCESS
+526,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9999,0.0001,0.37,SUCCESS
+527,YES (Cancer Detected),CANCER DETECTED,Malignant,37.5%,62.5%,Moderate Risk (20-50%),True,0.625,0.375,0.37,SUCCESS
+528,NO (No Cancer Detected),NO CANCER,Benign,0.1%,99.9%,Low Risk (<20%),False,0.9985,0.0015,0.37,SUCCESS
+529,NO (No Cancer Detected),NO CANCER,Benign,2.0%,98.0%,Low Risk (<20%),False,0.98,0.02,0.37,SUCCESS
+530,NO (No Cancer Detected),NO CANCER,Benign,0.1%,99.9%,Low Risk (<20%),False,0.9993,0.0007,0.37,SUCCESS
+531,NO (No Cancer Detected),NO CANCER,Benign,1.6%,98.4%,Low Risk (<20%),False,0.9839,0.0161,0.37,SUCCESS
+532,NO (No Cancer Detected),NO CANCER,Benign,4.3%,95.7%,Low Risk (<20%),False,0.9566,0.0434,0.37,SUCCESS
+533,NO (No Cancer Detected),NO CANCER,Benign,0.7%,99.3%,Low Risk (<20%),False,0.993,0.007,0.37,SUCCESS
+534,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+535,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9997,0.0003,0.37,SUCCESS
+536,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+537,YES (Cancer Detected),CANCER DETECTED,Malignant,83.5%,83.5%,Critical Risk (>80%),False,0.1648,0.8352,0.37,SUCCESS
+538,NO (No Cancer Detected),NO CANCER,Benign,5.8%,94.2%,Low Risk (<20%),False,0.9425,0.0575,0.37,SUCCESS
+539,NO (No Cancer Detected),NO CANCER,Benign,0.1%,99.9%,Low Risk (<20%),False,0.9991,0.0009,0.37,SUCCESS
+540,NO (No Cancer Detected),NO CANCER,Benign,0.1%,99.9%,Low Risk (<20%),False,0.9991,0.0009,0.37,SUCCESS
+541,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9999,0.0001,0.37,SUCCESS
+542,YES (Cancer Detected),CANCER DETECTED,Malignant,56.6%,56.6%,High Risk (50-80%),False,0.4343,0.5657,0.37,SUCCESS
+543,NO (No Cancer Detected),NO CANCER,Benign,32.2%,67.8%,Moderate Risk (20-50%),True,0.6775,0.3225,0.37,SUCCESS
+544,NO (No Cancer Detected),NO CANCER,Benign,6.3%,93.7%,Low Risk (<20%),False,0.9374,0.0626,0.37,SUCCESS
+545,NO (No Cancer Detected),NO CANCER,Benign,0.4%,99.6%,Low Risk (<20%),False,0.9961,0.0039,0.37,SUCCESS
+546,NO (No Cancer Detected),NO CANCER,Benign,3.8%,96.2%,Low Risk (<20%),False,0.9625,0.0375,0.37,SUCCESS
+547,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9999,0.0001,0.37,SUCCESS
+548,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9999,0.0001,0.37,SUCCESS
+549,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9998,0.0002,0.37,SUCCESS
+550,NO (No Cancer Detected),NO CANCER,Benign,1.0%,99.0%,Low Risk (<20%),False,0.9904,0.0096,0.37,SUCCESS
+551,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9997,0.0003,0.37,SUCCESS
+552,NO (No Cancer Detected),NO CANCER,Benign,0.1%,99.9%,Low Risk (<20%),False,0.9989,0.0011,0.37,SUCCESS
+553,NO (No Cancer Detected),NO CANCER,Benign,5.8%,94.2%,Low Risk (<20%),False,0.9425,0.0575,0.37,SUCCESS
+554,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9998,0.0002,0.37,SUCCESS
+555,NO (No Cancer Detected),NO CANCER,Benign,6.9%,93.2%,Low Risk (<20%),False,0.9315,0.0685,0.37,SUCCESS
+556,NO (No Cancer Detected),NO CANCER,Benign,0.5%,99.5%,Low Risk (<20%),False,0.9948,0.0052,0.37,SUCCESS
+557,NO (No Cancer Detected),NO CANCER,Benign,0.0%,100.0%,Low Risk (<20%),False,0.9999,0.0001,0.37,SUCCESS
+558,NO (No Cancer Detected),NO CANCER,Benign,0.4%,99.6%,Low Risk (<20%),False,0.9957,0.0043,0.37,SUCCESS
+559,NO (No Cancer Detected),NO CANCER,Benign,3.1%,96.9%,Low Risk (<20%),False,0.9689,0.0311,0.37,SUCCESS
+560,NO (No Cancer Detected),NO CANCER,Benign,1.9%,98.1%,Low Risk (<20%),False,0.9814,0.0186,0.37,SUCCESS
+561,NO (No Cancer Detected),NO CANCER,Benign,13.2%,86.8%,Low Risk (<20%),False,0.8678,0.1322,0.37,SUCCESS
+562,NO (No Cancer Detected),NO CANCER,Benign,0.5%,99.5%,Low Risk (<20%),False,0.9949,0.0051,0.37,SUCCESS
+563,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+564,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+565,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+566,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+567,YES (Cancer Detected),CANCER DETECTED,Malignant,98.8%,98.8%,Critical Risk (>80%),False,0.0117,0.9883,0.37,SUCCESS
+568,YES (Cancer Detected),CANCER DETECTED,Malignant,100.0%,100.0%,Critical Risk (>80%),False,0.0,1.0,0.37,SUCCESS
+569,NO (No Cancer Detected),NO CANCER,Benign,0.1%,99.9%,Low Risk (<20%),False,0.9992,0.0008,0.37,SUCCESS

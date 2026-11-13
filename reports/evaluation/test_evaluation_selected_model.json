@@ -1,0 +1,55 @@
+{
+  "model_name": "Logistic Regression",
+  "accuracy": 0.9649122807017544,
+  "precision": 0.975,
+  "malignant_recall_sensitivity": 0.9285714285714286,
+  "benign_recall_specificity": 0.9861111111111112,
+  "f1_score": 0.9512195121951219,
+  "macro_f1": 0.9619111259605746,
+  "roc_auc": 0.996031746031746,
+  "brier_score": 0.021313139001192274,
+  "log_loss": 0.0772650126161056,
+  "confusion_matrix": {
+    "true_positive": 39,
+    "true_negative": 71,
+    "false_positive": 1,
+    "false_negative": 3,
+    "raw_matrix": [
+      [
+        71,
+        1
+      ],
+      [
+        3,
+        39
+      ]
+    ]
+  },
+  "classification_report": {
+    "Benign": {
+      "precision": 0.9594594594594594,
+      "recall": 0.9861111111111112,
+      "f1-score": 0.9726027397260274,
+      "support": 72.0
+    },
+    "Malignant": {
+      "precision": 0.975,
+      "recall": 0.9285714285714286,
+      "f1-score": 0.9512195121951219,
+      "support": 42.0
+    },
+    "accuracy": 0.9649122807017544,
+    "macro avg": {
+      "precision": 0.9672297297297296,
+      "recall": 0.9573412698412699,
+      "f1-score": 0.9619111259605746,
+      "support": 114.0
+    },
+    "weighted avg": {
+      "precision": 0.9651849217638692,
+      "recall": 0.9649122807017544,
+      "f1-score": 0.9647247085304307,
+      "support": 114.0
+    }
+  }
+}
